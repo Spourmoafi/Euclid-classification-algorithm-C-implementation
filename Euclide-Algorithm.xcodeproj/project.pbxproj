@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01AC047C1E6B62F100CC923E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01AC047B1E6B62F100CC923E /* main.cpp */; };
+		01AC04871E6B630D00CC923E /* Classification.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01AC04821E6B630D00CC923E /* Classification.cpp */; };
+		01AC04881E6B630D00CC923E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01AC04841E6B630D00CC923E /* main.cpp */; };
+		01AC04891E6B630D00CC923E /* Table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01AC04851E6B630D00CC923E /* Table.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,11 @@
 
 /* Begin PBXFileReference section */
 		01AC04781E6B62F100CC923E /* Euclide-Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Euclide-Algorithm"; sourceTree = BUILT_PRODUCTS_DIR; };
-		01AC047B1E6B62F100CC923E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		01AC04821E6B630D00CC923E /* Classification.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Classification.cpp; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/Assignment-Sajid Fadlelseed -15016622 2/Classification.cpp"; sourceTree = "<group>"; };
+		01AC04831E6B630D00CC923E /* Classification.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Classification.hpp; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/Assignment-Sajid Fadlelseed -15016622 2/Classification.hpp"; sourceTree = "<group>"; };
+		01AC04841E6B630D00CC923E /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/Assignment-Sajid Fadlelseed -15016622 2/main.cpp"; sourceTree = "<group>"; };
+		01AC04851E6B630D00CC923E /* Table.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Table.cpp; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/Assignment-Sajid Fadlelseed -15016622 2/Table.cpp"; sourceTree = "<group>"; };
+		01AC04861E6B630D00CC923E /* Table.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Table.hpp; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/Assignment-Sajid Fadlelseed -15016622 2/Table.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,11 @@
 		01AC047A1E6B62F100CC923E /* Euclide-Algorithm */ = {
 			isa = PBXGroup;
 			children = (
-				01AC047B1E6B62F100CC923E /* main.cpp */,
+				01AC04821E6B630D00CC923E /* Classification.cpp */,
+				01AC04831E6B630D00CC923E /* Classification.hpp */,
+				01AC04841E6B630D00CC923E /* main.cpp */,
+				01AC04851E6B630D00CC923E /* Table.cpp */,
+				01AC04861E6B630D00CC923E /* Table.hpp */,
 			);
 			path = "Euclide-Algorithm";
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01AC047C1E6B62F100CC923E /* main.cpp in Sources */,
+				01AC04871E6B630D00CC923E /* Classification.cpp in Sources */,
+				01AC04891E6B630D00CC923E /* Table.cpp in Sources */,
+				01AC04881E6B630D00CC923E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
