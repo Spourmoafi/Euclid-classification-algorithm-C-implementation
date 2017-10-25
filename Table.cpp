@@ -64,6 +64,7 @@ void Table:: print_table(){
                 cout<<setw(12)<<cell;
             }
             cout<<endl;
+            cout<<endl;
         }
     }catch(int i){cout<<"2 catched.. nofile to print...";}
 }
